@@ -1,0 +1,41 @@
+$green: #9df4af;
+$crimson: #ff0000;
+
+section#title {
+  font-size: 40px;
+  font-weight: bold;
+  position: fixed;
+  top: 50px;
+  left: 200px;
+  color: $green;
+}
+
+section#nav {
+  position: fixed;
+  top: 200px;
+  left: 200px;
+
+  a {
+    font-size: 24px;
+    font-weight: bold;
+    color: $green;
+    text-decoration: none;
+    display: block;
+    padding-bottom: 10px;
+
+    &:hover {
+      color: $crimson;
+    font-size: 28px;
+    }
+  }
+}
+
+section#tumblr-iframe {
+  position: fixed;
+  top: 50px;
+  left: 400px;
+  iframe {
+    width: 700px;
+    height: 700px
+  }
+}
